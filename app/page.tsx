@@ -1,4 +1,5 @@
 import 'tailwindcss/tailwind.css'
+import Posts from './components/Posts';
 
 export default function Home() {
   return(
@@ -9,7 +10,7 @@ export default function Home() {
         I'm <span className="font-bold ">Cynthia</span>.
       </span>
     </p>
-    
+    <Posts />
   </main>
   );
     
